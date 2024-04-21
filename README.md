@@ -44,6 +44,8 @@ sudo make install
 sudo systemctl restart systemd-binfmt
 ```
 This will clone repo > build app > install it to your system so you can use it, needed version of box will be used automaticlly when you will try to open x86/x64 app
+
+**After this you'll need to reboot your vm**
 ### Installing SteamCMD & server files
 Create and open folder in which steamcmd should be installed:
 ```sh
